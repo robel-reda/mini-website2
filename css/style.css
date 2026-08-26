@@ -196,3 +196,7 @@ img {
     
     .section-title { text-align: left; max-width: 1100px; margin: 0 auto 30px auto; }
 }
+.logo {
+    width: 120px;
+    height: auto;
+}
