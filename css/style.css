@@ -11,7 +11,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding:0;
 }
 
 body {
@@ -64,6 +64,16 @@ img {
 .search-form { display: flex; border: 1px solid #ccc; border-radius: 4px; overflow: hidden; }
 .search-form input { border: none; padding: 8px 12px; outline: none; width: 180px; }
 .search-form button { background-color: var(--color-accent-dark); color: #fff; border: none; padding: 0 16px; cursor: pointer; }
+
+.search-form {
+    display: flex; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    overflow: hidden;
+    
+    /* Add this line to shift the form container down cleanly */
+    margin-top: 75px; 
+}
 
 /* Category Navigation Scroll-Track on Mobile Devices */
 .categories-nav {
@@ -197,7 +207,7 @@ img {
     .section-title { text-align: left; max-width: 1100px; margin: 0 auto 30px auto; }
 }
 .logo {
-    width: 165px;
+    width: 170px;
     height: auto;
 }
 .social-icons {
