@@ -197,6 +197,35 @@ img {
     .section-title { text-align: left; max-width: 1100px; margin: 0 auto 30px auto; }
 }
 .logo {
-    width: 120px;
+    width: 165px;
     height: auto;
+}
+.social-icons {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #222;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.social-icons a:hover {
+    background-color: #007bff;
+    color: white;
+    transform: translateY(-5px) scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
 }
