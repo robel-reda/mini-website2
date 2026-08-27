@@ -215,23 +215,52 @@ img {
     color:gold;
 }
 /* Social icons at the top */
+/* Social icons */
 .social-icons {
-    position: absolute;
-    top: 20px;
-    right: 30px;
     display: flex;
-    gap: 15px;
-    margin: 99px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
 }
-@media (max-width: 600px) {
-    .social-icons {
-        position: absolute;
-        right: 5px;
-        top: 100px;
-        display: flex;
-        gap: 10px;
-    }
 
+.social-icons a {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: red;
+    background-color: #222;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: gold;
+    color: white;
+    transform: translateY(-5px) scale(1.1);
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+    .social-icons {
+        justify-content: flex-end;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+}
+
+/* Phone */
+@media (max-width: 767px) {
+    .social-icons {
+        justify-content: flex-end;
+        padding-right: 10px;
+        gap: 20px;
+        margin-top: 10px;
+    }
 }
 
 .social-icons a {
@@ -293,3 +322,16 @@ img {
     gap: 50px;              /* Gives your social links wide, touch-friendly spacing */
     margin-top: 2px;
 }
+/* Promo Welcome Top Ribbon Banner */
+.welcome-bar {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+
