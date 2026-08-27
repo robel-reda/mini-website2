@@ -221,12 +221,22 @@ img {
     right: 30px;
     display: flex;
     gap: 15px;
-    margin: 40px;
+    margin: 99px;
+}
+@media (max-width: 600px) {
+    .social-icons {
+        position: absolute;
+        right: 5px;
+        top: 100px;
+        display: flex;
+        gap: 10px;
+    }
+
 }
 
 .social-icons a {
-    width: 80px;
-    height: 80px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -236,6 +246,7 @@ img {
     border-radius: 50%;
     font-size: 30px;
     transition: all 0.3s ease;
+    
 }
 
 /* Hover effect */
@@ -274,4 +285,11 @@ img {
 .welcome-bar a:hover {
     background-color: white;
     color: #222;
+}
+ Adjust the social icon row spacing underneath the logo */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;              /* Gives your social links wide, touch-friendly spacing */
+    margin-top: 2px;
 }
