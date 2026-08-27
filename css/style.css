@@ -170,7 +170,7 @@ img {
 .footer-list-column a:hover, .footer-link:hover { color: #ffffff; }
 
 .contact-info-col p { font-size: 0.85rem; color: #a1a1aa; }
-.address-line { line-height: 1.4; }
+.address-line { line-height: 0.4; }
 .phone-line { font-size: 1.1rem !important; font-weight: bold; color: #ffffff !important; margin-top: 5px; }
 
 .footer-copyright-row { max-width: 1200px; margin: 40px auto 0 auto; border-top: 1px solid #2d2d34; padding-top: 20px; text-align: center; font-size: 0.75rem; color: #71717a; }
@@ -209,8 +209,8 @@ img {
 }
 
 .social-icons a {
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,8 +224,12 @@ img {
 
 /* Hover effect */
 .social-icons a:hover {
-    background-color: #007bff;
+    background-color:red;
     color: white;
     transform: translateY(-5px) scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+.body {
+    font-family: 'Times New Roman', Times, serif;
 }
