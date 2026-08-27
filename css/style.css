@@ -71,8 +71,9 @@ img {
     border-radius: 4px; 
     overflow: hidden;
     
+    
     /* Add this line to shift the form container down cleanly */
-    margin-top: 75px; 
+    margin-top: 90px; 
 }
 
 /* Category Navigation Scroll-Track on Mobile Devices */
@@ -210,6 +211,10 @@ img {
     width: 170px;
     height: auto;
 }
+.rating {
+    color:gold;
+}
+/* Social icons at the top */
 .social-icons {
     position: absolute;
     top: 20px;
@@ -219,13 +224,13 @@ img {
 }
 
 .social-icons a {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: white;
+    color: red;
     background-color: #222;
     border-radius: 50%;
     font-size: 18px;
@@ -234,11 +239,9 @@ img {
 
 /* Hover effect */
 .social-icons a:hover {
-    background-color:red;
+    background-color: gold;
     color: white;
     transform: translateY(-5px) scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
 }
-.rating {
-    color: orange;
-}
+
